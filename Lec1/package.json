@@ -1,0 +1,11 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js task .js file.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
