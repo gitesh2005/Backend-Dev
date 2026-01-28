@@ -1,0 +1,14 @@
+3. Purpose of the ‘utf8’ encoding parameter in file operations....
+-------------------------------------------------------------------------
+
+'utf8' tells Node.js to handle the file as text instead of raw bytes.
+
+Without encoding, the data would be returned as a buffer (binary format).
+
+UTF-8 supports characters like letters, numbers, symbols, emojis, etc.
+
+It ensures the text is displayed correctly across different systems.
+
+It is the most common and standard text encoding used today.
+
+Without encoding, the text might look unreadable or broken.

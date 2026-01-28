@@ -1,0 +1,14 @@
+5. How to safely delete a directory with all its contents....
+---------------------------------------------------------
+
+First remove all files and subfolders inside the directory.
+
+After clearing the contents, remove the directory itself.
+
+This avoids errors and prevents half-deleted data.
+
+In Node.js you can use fs.rm(path, { recursive: true, force: true }).
+
+This ensures even nested files and folders are deleted.
+
+Always be careful because deleted data cannot be recovered.

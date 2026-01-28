@@ -1,0 +1,14 @@
+8. Difference between writeFile and appendFile methods.....
+---------------------------------------------------------
+
+writeFile() rewrites or replaces the entire file content.
+
+If the file doesn’t exist, it creates a new one.
+
+Use this when you want fresh or updated data.
+
+appendFile() adds new data to the end of the existing file.
+
+It is useful for logging, history, and ongoing data.
+
+Use appendFile when you don’t want to remove old content.

@@ -1,0 +1,14 @@
+Common error codes in file system operations and what they mean......
+----------------------------------------------------------------
+
+ENOENT → File or directory does not exist.
+
+EACCES / EPERM → Permission denied (user not allowed to access).
+
+EEXIST → Trying to create something that already exists.
+
+ENOTDIR → Expected a folder but found a file.
+
+EBUSY → File or device is already in use.
+
+Understanding these helps in debugging file system problems.

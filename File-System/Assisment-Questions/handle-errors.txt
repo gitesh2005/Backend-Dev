@@ -1,0 +1,14 @@
+7. Why it is important to handle errors in file operations...
+-------------------------------------------------------------------
+
+File operations can fail due to missing files, no permissions, or disk issues.
+
+Without error handling, the program may crash unexpectedly.
+
+Handling errors improves user experience and debugging.
+
+It helps prevent data loss and corruption.
+
+Errors can guide the program to take alternate action instead of stopping.
+
+Always check for errors using try-catch, callbacks, or promises.

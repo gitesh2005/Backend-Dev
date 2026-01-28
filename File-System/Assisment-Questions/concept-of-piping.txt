@@ -1,0 +1,14 @@
+Concept of piping in streams with an example..
+----------------------------------------------------
+
+Piping connects one stream’s output directly into another stream’s input.
+
+This allows efficient data flow without loading everything into memory.
+
+Commonly used to copy files, compress files, or stream video data.
+
+Example: readStream.pipe(writeStream) copies file content.
+
+Piping uses backpressure control to avoid memory overflow.
+
+It is widely used in Node.js for performance and scalability.

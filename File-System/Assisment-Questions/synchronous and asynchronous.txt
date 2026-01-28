@@ -1,0 +1,13 @@
+Difference between synchronous and asynchronous file operations
+
+Synchronous file operations block the code, meaning the program waits until the file task is finished.
+
+No other code runs during this time, so it slows the execution.
+
+Asynchronous file operations do not block, they allow the program to continue running.
+
+The result is returned through callbacks, promises, or async-await.
+
+Async is preferred for performance and scalability.
+
+Sync is sometimes used for simple scripts or startup tasks.

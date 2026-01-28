@@ -1,0 +1,14 @@
+2. When to use file streams instead of reading the entire file
+-----------------------------------------------------------------
+
+Use streams when dealing with large files such as videos, logs, or backups.
+
+Streams read or write data in small chunks instead of loading the whole file into memory.
+
+This reduces RAM usage and prevents crashes.
+
+Streams are faster for continuous data transfer.
+
+They are commonly used for file copying, uploading, and downloading.
+
+Reading the whole file is okay only for small files.
