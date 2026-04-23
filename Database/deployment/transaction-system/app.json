@@ -1,0 +1,6 @@
+{
+  "name": "transaction-system",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
